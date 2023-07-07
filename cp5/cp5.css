@@ -1,0 +1,106 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 90%;/*横幅90%*/
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading{
+  font-size: 32px;
+}
+.nav-list{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.main{
+  width: 800px; /*800px*/
+  padding: 50px 0;
+  display: flex; /*Flexboxの利用*/
+  flex-wrap: wrap; /*複数行に折り返し*/
+  margin: 0 auto;
+}
+.main-1{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e6ffe9;
+}
+.main-2{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #cbffd3;
+}
+.main-3{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #aeffbd;
+}
+.main-4{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #93ffab;
+}
+.main-5{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #f3ffd8;
+}
+.main-6{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #edffbe;
+}
+.main-7{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e9ffa5;
+}
+.main-8{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #e4ff8d;
+}
+.main-9{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #d9e5ff;
+}
+.main-10{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #bad3ff;
+}
+.main-11{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #a4c6ff;
+}
+.main-12{
+  width: 200px; /*横幅200px*/
+  height: 200px; /*高さ200px*/
+  background-color: #8eb8ff;
+}
+
+footer{
+  width: 100%; /*横幅いっぱい*/
+  height: 120px; /*高さ120px*/
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+.footer-text{
+  color: #fff;
+}
