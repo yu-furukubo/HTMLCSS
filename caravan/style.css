@@ -30,10 +30,23 @@ header{
 .main-visual{
   width: 100%; /*横幅いっぱい*/
   height: 300px; /*高さ300px*/
+  background-image: url(img/mv.jpg);
+  background-size: cover;  /*縦横比を維持したまま背景領域を埋め尽くす*/
+  background-position: center;  /*背景画像を中央配置*/
 }
 .main-visual-content{
-  width: 350px; /*横幅350px*/
+  width: 40%; /*横幅40%*/
   height: 300px; /*高さ300px*/
+  background-color: rgba(0,0,0,0.5);  /*RGB値と透明度を指定*/
+  text-align: center;  /*テキストの位置を中央配置*/
+  padding-top: 105px;  /*テキスト上部に105pxの内側余白*/
+}
+.main-visual-text{
+  color: #fff;  /*テキストの色を指定(白)*/
+}
+.main-visual-name{
+  margin-top: 30px;  /*上側の外側余白の指定*/
+  color: #fff;    /*テキストの色を指定(白)*/
 }
 .main{
   width: 840px; /*840px*/
